@@ -1,0 +1,14 @@
+{
+  "name": "eval-cljs",
+  "version": "0.0.2",
+  "description": "Evaluate ClojureScript code from Javascript",
+  "main": "release.js",
+  "scripts": {
+    "release": "npx shadow-cljs release code"
+  },
+  "author": "Thiago Carvalho",
+  "license": "MIT",
+  "devDependencies": {
+    "shadow-cljs": "2.20.5"
+  }
+}

@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :dependencies [[org.babashka/sci "0.8.43"]]
+ :builds {:code {:target :node-library
+                 :exports {:evaluate eval-cljs.main/evaluate}
+                 :output-to "release.js"
+                 :devtools {:enabled false}}}}
